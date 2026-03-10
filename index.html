@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محول SDR إلى DXF المهني | حسن صالح</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>محول SDR إلى DXF المهني</h1>
+        <p>إعداد أ: حسن صالح</p>
+        
+        <div class="controls">
+            <button id="uploadBtn">📁 اختيار ملف SDR</button>
+            <button id="viewBtn" style="display:none;">👁️ عرض الشيت</button>
+            <input type="file" id="fileInput" accept=".sdr,.txt" style="display:none;">
+        </div>
+
+        <div id="status">في انتظار رفع الملف...</div>
+
+        <div id="tableWrapper">
+            <div id="tableContainer"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
